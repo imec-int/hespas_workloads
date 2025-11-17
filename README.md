@@ -1,4 +1,3 @@
-# Workloads repo
+# Llama 3 size scaling 8 GPU 
 
-Each branch tracks a different workload.
-Main is empty for fast cloning.
+Scaling the size of Llama3-like models on a single 8G GPU node.
