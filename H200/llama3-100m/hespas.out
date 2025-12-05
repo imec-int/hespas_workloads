@@ -1,0 +1,1060 @@
+Created output directory: output/llama3/100m_4h200
+Dependency graph not loaded. Generating a new one.
+Parsing mlir_file: /home/hice1/wguo303/changhai/shared/scratch/workloads/llama3-100m.mlir
+----------------------------------------
+Input file          | /home/hice1/wguo303/changhai/shared/scratch/workloads/llama3-100m.mlir
+Number of non-expanded ops:| 5124
+Split strategy      | linear_split
+----------------------------------------
+Dependency graph saved to output/llama3/100m_4h200/dependency_graph.dot
+Number of splits: 746
+Creating new MLIR modules for each split:
+Saving private functions to: output/llama3/100m_4h200/private_functions.mlir
+Removed 0 empty mlir nodes from dependency graph
+Dependency graph pickled and saved to output/llama3/100m_4h200/dependency_graph.pkl
+Parsed 746 modules from the MLIR file.
+No cached results found at: /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/cache.json
+>>>> DiGraph with 746 nodes and 745 edges
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_745.hlo output/llama3/100m_4h200/mini_module_745.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_745.hlo
+------------------------------------------------
+Runtime estimate for mini_module_745.mlir - runtime: 5.488000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_743.hlo output/llama3/100m_4h200/mini_module_743.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_743.hlo
+------------------------------------------------
+Runtime estimate for mini_module_743.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_741.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_739.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_737.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_735.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_733.hlo output/llama3/100m_4h200/mini_module_733.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_733.hlo
+------------------------------------------------
+Runtime estimate for mini_module_733.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_731.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_729.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_727.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_725.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_723.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_721.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_719.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_717.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_715.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_713.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_711.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_709.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_707.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_705.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_703.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_701.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_699.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_697.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_695.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_693.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_691.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_689.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_687.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_685.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_683.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_681.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_679.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_677.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_675.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_673.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_671.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_669.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_667.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_665.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_663.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_661.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_659.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_657.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_655.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_653.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_651.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (733) for mini_module_649.mlir - runtime: 5.68
+-----------------------------------------------------------
+Cache hit (743) for mini_module_647.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (743) for mini_module_645.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (745) for mini_module_643.mlir - runtime: 5.488000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_641.hlo output/llama3/100m_4h200/mini_module_641.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_641.hlo
+------------------------------------------------
+Runtime estimate for mini_module_641.mlir - runtime: 16.840000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_639.hlo output/llama3/100m_4h200/mini_module_639.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_639.hlo
+------------------------------------------------
+Runtime estimate for mini_module_639.mlir - runtime: 16.824
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_637.hlo output/llama3/100m_4h200/mini_module_637.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_637.hlo
+------------------------------------------------
+Runtime estimate for mini_module_637.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_635.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_633.hlo output/llama3/100m_4h200/mini_module_633.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_633.hlo
+------------------------------------------------
+Runtime estimate for mini_module_633.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_631.hlo output/llama3/100m_4h200/mini_module_631.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_631.hlo
+------------------------------------------------
+Runtime estimate for mini_module_631.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_629.hlo output/llama3/100m_4h200/mini_module_629.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_629.hlo
+------------------------------------------------
+Runtime estimate for mini_module_629.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_627.hlo output/llama3/100m_4h200/mini_module_627.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_627.hlo
+------------------------------------------------
+Runtime estimate for mini_module_627.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_625.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_623.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_621.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_619.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_617.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_615.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_613.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_611.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_609.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_607.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_605.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_603.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_601.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_599.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_597.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_595.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_593.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_591.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_589.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_587.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_585.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_583.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_581.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_579.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_577.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_575.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_573.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_571.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_569.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_567.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_565.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_563.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_561.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_559.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_557.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_555.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_553.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (637) for mini_module_551.mlir - runtime: 10.200000000000001
+-----------------------------------------------------------
+Cache hit (633) for mini_module_549.mlir - runtime: 10.136000000000001
+-----------------------------------------------------------
+Cache hit (631) for mini_module_547.mlir - runtime: 10.120000000000001
+-----------------------------------------------------------
+Cache hit (629) for mini_module_545.mlir - runtime: 10.072000000000001
+-----------------------------------------------------------
+Cache hit (627) for mini_module_543.mlir - runtime: 10.328000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_541.hlo output/llama3/100m_4h200/mini_module_541.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_541.hlo
+------------------------------------------------
+Runtime estimate for mini_module_541.mlir - runtime: 11.8
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_539.hlo output/llama3/100m_4h200/mini_module_539.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_539.hlo
+------------------------------------------------
+Runtime estimate for mini_module_539.mlir - runtime: 603.24
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_537.hlo output/llama3/100m_4h200/mini_module_537.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_537.hlo
+------------------------------------------------
+Runtime estimate for mini_module_537.mlir - runtime: 16.200000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_535.hlo output/llama3/100m_4h200/mini_module_535.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_535.hlo
+------------------------------------------------
+Runtime estimate for mini_module_535.mlir - runtime: 16.488000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_533.hlo output/llama3/100m_4h200/mini_module_533.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_533.hlo
+------------------------------------------------
+Runtime estimate for mini_module_533.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_531.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_529.hlo output/llama3/100m_4h200/mini_module_529.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_529.hlo
+------------------------------------------------
+Runtime estimate for mini_module_529.mlir - runtime: 9.744
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_527.hlo output/llama3/100m_4h200/mini_module_527.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_527.hlo
+------------------------------------------------
+Runtime estimate for mini_module_527.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_525.hlo output/llama3/100m_4h200/mini_module_525.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_525.hlo
+------------------------------------------------
+Runtime estimate for mini_module_525.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_523.hlo output/llama3/100m_4h200/mini_module_523.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_523.hlo
+------------------------------------------------
+Runtime estimate for mini_module_523.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_521.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_519.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_517.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_515.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_513.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_511.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_509.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_507.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_505.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_503.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_501.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_499.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_497.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_495.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_493.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_491.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_489.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_487.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_485.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_483.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_481.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_479.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_477.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_475.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_473.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_471.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_469.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_467.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_465.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_463.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_461.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_459.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_457.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_455.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_453.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (523) for mini_module_451.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Cache hit (533) for mini_module_449.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (533) for mini_module_447.mlir - runtime: 9.648000000000001
+-----------------------------------------------------------
+Cache hit (529) for mini_module_445.mlir - runtime: 9.744
+-----------------------------------------------------------
+Cache hit (527) for mini_module_443.mlir - runtime: 10.008000000000001
+-----------------------------------------------------------
+Cache hit (525) for mini_module_441.mlir - runtime: 9.984000000000002
+-----------------------------------------------------------
+Cache hit (523) for mini_module_439.mlir - runtime: 10.216000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_437.hlo output/llama3/100m_4h200/mini_module_437.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_437.hlo
+------------------------------------------------
+Runtime estimate for mini_module_437.mlir - runtime: 120.92
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_436.hlo output/llama3/100m_4h200/mini_module_436.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_436.hlo
+------------------------------------------------
+Runtime estimate for mini_module_436.mlir - runtime: 101.44000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_434.hlo output/llama3/100m_4h200/mini_module_434.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_434.hlo
+------------------------------------------------
+Runtime estimate for mini_module_434.mlir - runtime: 20.416000000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_432.hlo output/llama3/100m_4h200/mini_module_432.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_432.hlo
+------------------------------------------------
+Runtime estimate for mini_module_432.mlir - runtime: 736.4320000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_430.hlo output/llama3/100m_4h200/mini_module_430.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_430.hlo
+------------------------------------------------
+Runtime estimate for mini_module_430.mlir - runtime: 15.136000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_428.hlo output/llama3/100m_4h200/mini_module_428.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_428.hlo
+------------------------------------------------
+Runtime estimate for mini_module_428.mlir - runtime: 744.816
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_426.hlo output/llama3/100m_4h200/mini_module_426.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_426.hlo
+------------------------------------------------
+Runtime estimate for mini_module_426.mlir - runtime: 8.568
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_424.hlo output/llama3/100m_4h200/mini_module_424.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_424.hlo
+------------------------------------------------
+Runtime estimate for mini_module_424.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_422.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_420.mlir - runtime: 18.488
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_418.hlo output/llama3/100m_4h200/mini_module_418.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_418.hlo
+------------------------------------------------
+Runtime estimate for mini_module_418.mlir - runtime: 8.688
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_416.hlo output/llama3/100m_4h200/mini_module_416.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_416.hlo
+------------------------------------------------
+Runtime estimate for mini_module_416.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_414.mlir - runtime: 8.568
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_412.hlo output/llama3/100m_4h200/mini_module_412.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_412.hlo
+------------------------------------------------
+Runtime estimate for mini_module_412.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_410.hlo output/llama3/100m_4h200/mini_module_410.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_410.hlo
+------------------------------------------------
+Runtime estimate for mini_module_410.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_408.hlo output/llama3/100m_4h200/mini_module_408.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_408.hlo
+------------------------------------------------
+Runtime estimate for mini_module_408.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_406.hlo output/llama3/100m_4h200/mini_module_406.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_406.hlo
+------------------------------------------------
+Runtime estimate for mini_module_406.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_404.hlo output/llama3/100m_4h200/mini_module_404.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_404.hlo
+------------------------------------------------
+Runtime estimate for mini_module_404.mlir - runtime: 42.968
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_402.hlo output/llama3/100m_4h200/mini_module_402.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_402.hlo
+------------------------------------------------
+Runtime estimate for mini_module_402.mlir - runtime: 8.648
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_400.hlo output/llama3/100m_4h200/mini_module_400.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_400.hlo
+------------------------------------------------
+Runtime estimate for mini_module_400.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_398.mlir - runtime: 8.648
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_396.hlo output/llama3/100m_4h200/mini_module_396.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_396.hlo
+------------------------------------------------
+Runtime estimate for mini_module_396.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_394.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_392.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_390.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_388.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_386.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_384.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_382.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (412) for mini_module_380.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Cache hit (410) for mini_module_378.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Cache hit (408) for mini_module_376.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Cache hit (406) for mini_module_374.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_372.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_370.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (400) for mini_module_368.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_366.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (396) for mini_module_364.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_362.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_360.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_358.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_356.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_354.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_352.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_350.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (412) for mini_module_348.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Cache hit (410) for mini_module_346.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Cache hit (408) for mini_module_344.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Cache hit (406) for mini_module_342.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_340.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_338.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (400) for mini_module_336.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_334.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (396) for mini_module_332.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_330.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_328.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_326.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_324.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_322.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_320.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_318.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (412) for mini_module_316.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Cache hit (410) for mini_module_314.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Cache hit (408) for mini_module_312.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Cache hit (406) for mini_module_310.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_308.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_306.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (400) for mini_module_304.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_302.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (396) for mini_module_300.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_298.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_296.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_294.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_292.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_290.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_288.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_286.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (412) for mini_module_284.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Cache hit (410) for mini_module_282.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Cache hit (408) for mini_module_280.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Cache hit (406) for mini_module_278.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_276.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_274.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (400) for mini_module_272.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_270.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (396) for mini_module_268.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_266.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_264.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_262.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_260.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_258.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_256.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_254.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (412) for mini_module_252.mlir - runtime: 25.136000000000003
+-----------------------------------------------------------
+Cache hit (410) for mini_module_250.mlir - runtime: 25.840000000000003
+-----------------------------------------------------------
+Cache hit (408) for mini_module_248.mlir - runtime: 23.208000000000002
+-----------------------------------------------------------
+Cache hit (406) for mini_module_246.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_244.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_242.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (400) for mini_module_240.mlir - runtime: 26.456000000000003
+-----------------------------------------------------------
+Cache hit (402) for mini_module_238.mlir - runtime: 8.648
+-----------------------------------------------------------
+Cache hit (396) for mini_module_236.mlir - runtime: 39.06400000000001
+-----------------------------------------------------------
+Cache hit (426) for mini_module_234.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_232.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (426) for mini_module_230.mlir - runtime: 8.568
+-----------------------------------------------------------
+Cache hit (424) for mini_module_228.mlir - runtime: 18.488
+-----------------------------------------------------------
+Cache hit (418) for mini_module_226.mlir - runtime: 8.688
+-----------------------------------------------------------
+Cache hit (416) for mini_module_224.mlir - runtime: 26.192000000000004
+-----------------------------------------------------------
+Cache hit (426) for mini_module_222.mlir - runtime: 8.568
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_220.hlo output/llama3/100m_4h200/mini_module_220.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_220.hlo
+------------------------------------------------
+Runtime estimate for mini_module_220.mlir - runtime: 24.160000000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_218.hlo output/llama3/100m_4h200/mini_module_218.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_218.hlo
+------------------------------------------------
+Runtime estimate for mini_module_218.mlir - runtime: 35.952000000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_216.hlo output/llama3/100m_4h200/mini_module_216.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_216.hlo
+------------------------------------------------
+Runtime estimate for mini_module_216.mlir - runtime: 133.776
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_214.hlo output/llama3/100m_4h200/mini_module_214.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_214.hlo
+------------------------------------------------
+Runtime estimate for mini_module_214.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_212.hlo output/llama3/100m_4h200/mini_module_212.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_212.hlo
+------------------------------------------------
+Runtime estimate for mini_module_212.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_210.hlo output/llama3/100m_4h200/mini_module_210.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_210.hlo
+------------------------------------------------
+Runtime estimate for mini_module_210.mlir - runtime: 27.744000000000007
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_208.hlo output/llama3/100m_4h200/mini_module_208.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_208.hlo
+------------------------------------------------
+Runtime estimate for mini_module_208.mlir - runtime: 41.824
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_206.hlo output/llama3/100m_4h200/mini_module_206.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_206.hlo
+------------------------------------------------
+Runtime estimate for mini_module_206.mlir - runtime: 19.064
+-----------------------------------------------------------
+Cache hit (743) for mini_module_204.mlir - runtime: 5.5200000000000005
+-----------------------------------------------------------
+Cache hit (406) for mini_module_202.mlir - runtime: 8.472000000000001
+-----------------------------------------------------------
+Cache hit (404) for mini_module_200.mlir - runtime: 42.968
+-----------------------------------------------------------
+Cache hit (402) for mini_module_198.mlir - runtime: 8.648
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_196.hlo output/llama3/100m_4h200/mini_module_196.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_196.hlo
+------------------------------------------------
+Runtime estimate for mini_module_196.mlir - runtime: 46.776
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_194.hlo output/llama3/100m_4h200/mini_module_194.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_194.hlo
+------------------------------------------------
+Runtime estimate for mini_module_194.mlir - runtime: 10.376000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_192.hlo output/llama3/100m_4h200/mini_module_192.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_192.hlo
+------------------------------------------------
+Runtime estimate for mini_module_192.mlir - runtime: 67.816
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_190.hlo output/llama3/100m_4h200/mini_module_190.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_190.hlo
+------------------------------------------------
+Runtime estimate for mini_module_190.mlir - runtime: 88.35200000000002
+-----------------------------------------------------------
+Cache hit (216) for mini_module_188.mlir - runtime: 133.776
+-----------------------------------------------------------
+Cache hit (214) for mini_module_186.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_184.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_182.hlo output/llama3/100m_4h200/mini_module_182.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_182.hlo
+------------------------------------------------
+Runtime estimate for mini_module_182.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_180.hlo output/llama3/100m_4h200/mini_module_180.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_180.hlo
+------------------------------------------------
+Runtime estimate for mini_module_180.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_178.hlo output/llama3/100m_4h200/mini_module_178.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_178.hlo
+------------------------------------------------
+Runtime estimate for mini_module_178.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_176.hlo output/llama3/100m_4h200/mini_module_176.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_176.hlo
+------------------------------------------------
+Runtime estimate for mini_module_176.mlir - runtime: 92.12800000000001
+-----------------------------------------------------------
+Cache hit (216) for mini_module_174.mlir - runtime: 133.776
+-----------------------------------------------------------
+Cache hit (214) for mini_module_172.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_170.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Cache hit (182) for mini_module_168.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Cache hit (180) for mini_module_166.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Cache hit (178) for mini_module_164.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Cache hit (176) for mini_module_162.mlir - runtime: 92.12800000000001
+-----------------------------------------------------------
+Cache hit (216) for mini_module_160.mlir - runtime: 133.776
+-----------------------------------------------------------
+Cache hit (214) for mini_module_158.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_156.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Cache hit (182) for mini_module_154.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Cache hit (180) for mini_module_152.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Cache hit (178) for mini_module_150.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Cache hit (176) for mini_module_148.mlir - runtime: 92.12800000000001
+-----------------------------------------------------------
+Cache hit (216) for mini_module_146.mlir - runtime: 133.776
+-----------------------------------------------------------
+Cache hit (214) for mini_module_144.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_142.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Cache hit (182) for mini_module_140.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Cache hit (180) for mini_module_138.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Cache hit (178) for mini_module_136.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Cache hit (176) for mini_module_134.mlir - runtime: 92.12800000000001
+-----------------------------------------------------------
+Cache hit (216) for mini_module_132.mlir - runtime: 133.776
+-----------------------------------------------------------
+Cache hit (214) for mini_module_130.mlir - runtime: 1059.3360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_128.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Cache hit (182) for mini_module_126.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Cache hit (180) for mini_module_124.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Cache hit (178) for mini_module_122.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Cache hit (176) for mini_module_120.mlir - runtime: 92.12800000000001
+-----------------------------------------------------------
+Cache hit (216) for mini_module_118.mlir - runtime: 133.776
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_116.hlo output/llama3/100m_4h200/mini_module_116.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_116.hlo
+------------------------------------------------
+Runtime estimate for mini_module_116.mlir - runtime: 934.1360000000002
+-----------------------------------------------------------
+Cache hit (212) for mini_module_114.mlir - runtime: 984.2080000000001
+-----------------------------------------------------------
+Cache hit (182) for mini_module_112.mlir - runtime: 34.72800000000001
+-----------------------------------------------------------
+Cache hit (180) for mini_module_110.mlir - runtime: 45.94400000000001
+-----------------------------------------------------------
+Cache hit (178) for mini_module_108.mlir - runtime: 28.336000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_106.hlo output/llama3/100m_4h200/mini_module_106.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_106.hlo
+------------------------------------------------
+Runtime estimate for mini_module_106.mlir - runtime: 84.92000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_104.hlo output/llama3/100m_4h200/mini_module_104.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_104.hlo
+------------------------------------------------
+Runtime estimate for mini_module_104.mlir - runtime: 2966.512
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_102.hlo output/llama3/100m_4h200/mini_module_102.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_102.hlo
+------------------------------------------------
+Runtime estimate for mini_module_102.mlir - runtime: 634.296
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_100.hlo output/llama3/100m_4h200/mini_module_100.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_100.hlo
+------------------------------------------------
+Runtime estimate for mini_module_100.mlir - runtime: 30.288000000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_98.hlo output/llama3/100m_4h200/mini_module_98.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_98.hlo
+------------------------------------------------
+Runtime estimate for mini_module_98.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_96.hlo output/llama3/100m_4h200/mini_module_96.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_96.hlo
+------------------------------------------------
+Runtime estimate for mini_module_96.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_94.hlo output/llama3/100m_4h200/mini_module_94.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_94.hlo
+------------------------------------------------
+Runtime estimate for mini_module_94.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_92.hlo output/llama3/100m_4h200/mini_module_92.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_92.hlo
+------------------------------------------------
+Runtime estimate for mini_module_92.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_90.hlo output/llama3/100m_4h200/mini_module_90.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_90.hlo
+------------------------------------------------
+Runtime estimate for mini_module_90.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_88.hlo output/llama3/100m_4h200/mini_module_88.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_88.hlo
+------------------------------------------------
+Runtime estimate for mini_module_88.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_86.hlo output/llama3/100m_4h200/mini_module_86.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_86.hlo
+------------------------------------------------
+Runtime estimate for mini_module_86.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_84.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Cache hit (96) for mini_module_82.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Cache hit (94) for mini_module_80.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Cache hit (92) for mini_module_78.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Cache hit (90) for mini_module_76.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Cache hit (88) for mini_module_74.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Cache hit (86) for mini_module_72.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_70.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Cache hit (96) for mini_module_68.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Cache hit (94) for mini_module_66.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Cache hit (92) for mini_module_64.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Cache hit (90) for mini_module_62.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Cache hit (88) for mini_module_60.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Cache hit (86) for mini_module_58.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_56.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Cache hit (96) for mini_module_54.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Cache hit (94) for mini_module_52.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Cache hit (92) for mini_module_50.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Cache hit (90) for mini_module_48.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Cache hit (88) for mini_module_46.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Cache hit (86) for mini_module_44.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_42.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Cache hit (96) for mini_module_40.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Cache hit (94) for mini_module_38.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Cache hit (92) for mini_module_36.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Cache hit (90) for mini_module_34.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Cache hit (88) for mini_module_32.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Cache hit (86) for mini_module_30.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_28.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Cache hit (96) for mini_module_26.mlir - runtime: 34.28000000000001
+-----------------------------------------------------------
+Cache hit (94) for mini_module_24.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Cache hit (92) for mini_module_22.mlir - runtime: 1093.368
+-----------------------------------------------------------
+Cache hit (90) for mini_module_20.mlir - runtime: 22.536000000000005
+-----------------------------------------------------------
+Cache hit (88) for mini_module_18.mlir - runtime: 15.312000000000003
+-----------------------------------------------------------
+Cache hit (86) for mini_module_16.mlir - runtime: 29.032000000000004
+-----------------------------------------------------------
+Cache hit (98) for mini_module_14.mlir - runtime: 34.39200000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_12.hlo output/llama3/100m_4h200/mini_module_12.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_12.hlo
+------------------------------------------------
+Runtime estimate for mini_module_12.mlir - runtime: 33.672
+-----------------------------------------------------------
+Cache hit (94) for mini_module_10.mlir - runtime: 22.752000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_8.hlo output/llama3/100m_4h200/mini_module_8.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_8.hlo
+------------------------------------------------
+Runtime estimate for mini_module_8.mlir - runtime: 902.2800000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_6.hlo output/llama3/100m_4h200/mini_module_6.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_6.hlo
+------------------------------------------------
+Runtime estimate for mini_module_6.mlir - runtime: 26.184000000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_4.hlo output/llama3/100m_4h200/mini_module_4.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_4.hlo
+------------------------------------------------
+Runtime estimate for mini_module_4.mlir - runtime: 218.15200000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_2.hlo output/llama3/100m_4h200/mini_module_2.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_2.hlo
+------------------------------------------------
+Runtime estimate for mini_module_2.mlir - runtime: 710.32
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_0.hlo output/llama3/100m_4h200/mini_module_0.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /storage/ice1/5/1/cman8/shared/hespas_workload/output/llama3/100m_4h200/mini_module_0.hlo
+------------------------------------------------
+Runtime estimate for mini_module_0.mlir - runtime: 630.2560000000001
+------------------------------------------------------------
+Linking chakra traces 4 times for all devices.
+Chakra gen done.
+Cache hits: 303
+Basic block reuse rate: 0.81 (303/374)
+Operator reuse factor: 0.55 (2828/5125)
+Compute Runtime Estimation: 36070.06 us
+Stats: {}
+------------------------------------------------------------
+Done. Output directory: output/llama3/100m_4h200
+Took 220.409s
