@@ -1,0 +1,36 @@
+Created output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices
+Dependency graph not loaded. Generating a new one.
+Parsing mlir_file: /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet34_inference_step_4_devices.mlir
+----------------------------------------
+Input file          | /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet34_inference_step_4_devices.mlir
+Number of non-expanded ops:| 718
+Split strategy      | linear_split
+----------------------------------------
+Dependency graph saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/dependency_graph.dot
+Number of splits: 1
+Creating new MLIR modules for each split:
+Saving private functions to: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/private_functions.mlir
+Generating MLIR Modules: 0modules [00:00, ?modules/s]Generating MLIR Modules: 0modules [00:00, ?modules/s, Mem cur:243MiB peak:243MiB]Generating MLIR Modules: 1modules [00:00, 94.26modules/s, Mem cur:243MiB peak:243MiB]Generating MLIR Modules: 1modules [00:00, 93.87modules/s, Mem cur:243MiB peak:243MiB]
+Removed 0 empty mlir nodes from dependency graph
+Dependency graph pickled and saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/dependency_graph.pkl
+Parsed 1 modules from the MLIR file.
+No cached results found at: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/cache.json
+>>>> DiGraph with 1 nodes and 0 edges
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/mini_module_0.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/mini_module_0.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices/mini_module_0.hlo
+------------------------------------------------
+Runtime estimate for mini_module_0.mlir - runtime: 4507.391750000001
+------------------------------------------------------------
+Linking chakra traces 4 times for all devices.
+Chakra gen done.
+Cache hits: 0
+Basic block reuse rate: 0.00 (0/1)
+Operator reuse factor: 0.00 (0/784)
+Total estimator time taken: 5.642s vs total time (without caching): 5.642s (-0.009% reduction)
+Compute Runtime Estimation: 4507.39 us
+Stats: {}
+------------------------------------------------------------
+Done. Output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_inference_step_4_devices
+Took 5.647s

@@ -1,0 +1,344 @@
+Created output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices
+Dependency graph not loaded. Generating a new one.
+Parsing mlir_file: /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet34_train_step_4_devices.mlir
+----------------------------------------
+Input file          | /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet34_train_step_4_devices.mlir
+Number of non-expanded ops:| 7908
+Split strategy      | linear_split
+----------------------------------------
+Dependency graph saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/dependency_graph.dot
+Number of splits: 333
+Creating new MLIR modules for each split:
+Saving private functions to: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/private_functions.mlir
+Generating MLIR Modules: 0modules [00:00, ?modules/s]Generating MLIR Modules: 0modules [00:00, ?modules/s, Mem cur:260MiB peak:260MiB]Generating MLIR Modules: 1modules [00:00,  7.69modules/s, Mem cur:260MiB peak:260MiB]Generating MLIR Modules: 1modules [00:00,  7.69modules/s, Mem cur:260MiB peak:260MiB]Generating MLIR Modules: 333modules [00:00, 1033.25modules/s, Mem cur:260MiB peak:260MiB]Generating MLIR Modules: 333modules [00:00, 922.24modules/s, Mem cur:260MiB peak:260MiB] 
+Removed 0 empty mlir nodes from dependency graph
+Dependency graph pickled and saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/dependency_graph.pkl
+Parsed 333 modules from the MLIR file.
+No cached results found at: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/cache.json
+>>>> DiGraph with 333 nodes and 332 edges
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_331.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_331.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_331.hlo
+------------------------------------------------
+Runtime estimate for mini_module_331.mlir - runtime: 483.608
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_332.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_332.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_332.hlo
+------------------------------------------------
+Runtime estimate for mini_module_332.mlir - runtime: 325.00000000000006
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_257.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_257.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_257.hlo
+------------------------------------------------
+Runtime estimate for mini_module_257.mlir - runtime: 7.768000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_258.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_258.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_258.hlo
+------------------------------------------------
+Runtime estimate for mini_module_258.mlir - runtime: 237.912
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_144.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_144.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_144.hlo
+------------------------------------------------
+Runtime estimate for mini_module_144.mlir - runtime: 1904.3920000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_142.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_142.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_142.hlo
+------------------------------------------------
+Runtime estimate for mini_module_142.mlir - runtime: 3356.1840000000007
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_140.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_140.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_140.hlo
+------------------------------------------------
+Runtime estimate for mini_module_140.mlir - runtime: 639.48
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_138.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_138.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_138.hlo
+------------------------------------------------
+Runtime estimate for mini_module_138.mlir - runtime: 693.744
+-----------------------------------------------------------
+Cache hit (140) for mini_module_136.mlir - runtime: 639.48
+-----------------------------------------------------------
+Cache hit (138) for mini_module_134.mlir - runtime: 693.744
+-----------------------------------------------------------
+Cache hit (140) for mini_module_132.mlir - runtime: 639.48
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_130.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_130.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_130.hlo
+------------------------------------------------
+Runtime estimate for mini_module_130.mlir - runtime: 703.5920000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_128.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_128.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_128.hlo
+------------------------------------------------
+Runtime estimate for mini_module_128.mlir - runtime: 395.4480000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_126.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_126.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_126.hlo
+------------------------------------------------
+Runtime estimate for mini_module_126.mlir - runtime: 301.088
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_124.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_124.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_124.hlo
+------------------------------------------------
+Runtime estimate for mini_module_124.mlir - runtime: 409.19200000000006
+-----------------------------------------------------------
+Cache hit (128) for mini_module_122.mlir - runtime: 395.4480000000001
+-----------------------------------------------------------
+Cache hit (124) for mini_module_120.mlir - runtime: 409.19200000000006
+-----------------------------------------------------------
+Cache hit (128) for mini_module_118.mlir - runtime: 395.4480000000001
+-----------------------------------------------------------
+Cache hit (124) for mini_module_116.mlir - runtime: 409.19200000000006
+-----------------------------------------------------------
+Cache hit (128) for mini_module_114.mlir - runtime: 395.4480000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_112.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_112.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_112.hlo
+------------------------------------------------
+Runtime estimate for mini_module_112.mlir - runtime: 368.28800000000007
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_110.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_110.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_110.hlo
+------------------------------------------------
+Runtime estimate for mini_module_110.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_108.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_108.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_108.hlo
+------------------------------------------------
+Runtime estimate for mini_module_108.mlir - runtime: 182.208
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_106.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_106.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_106.hlo
+------------------------------------------------
+Runtime estimate for mini_module_106.mlir - runtime: 295.76
+-----------------------------------------------------------
+Cache hit (110) for mini_module_104.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Cache hit (106) for mini_module_102.mlir - runtime: 295.76
+-----------------------------------------------------------
+Cache hit (110) for mini_module_100.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Cache hit (106) for mini_module_98.mlir - runtime: 295.76
+-----------------------------------------------------------
+Cache hit (110) for mini_module_96.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Cache hit (106) for mini_module_94.mlir - runtime: 295.76
+-----------------------------------------------------------
+Cache hit (110) for mini_module_92.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Cache hit (106) for mini_module_90.mlir - runtime: 295.76
+-----------------------------------------------------------
+Cache hit (110) for mini_module_88.mlir - runtime: 288.20799999999997
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_86.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_86.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_86.hlo
+------------------------------------------------
+Runtime estimate for mini_module_86.mlir - runtime: 264.944
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_84.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_84.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_84.hlo
+------------------------------------------------
+Runtime estimate for mini_module_84.mlir - runtime: 236.032
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_82.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_82.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_82.hlo
+------------------------------------------------
+Runtime estimate for mini_module_82.mlir - runtime: 122.24000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_80.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_80.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_80.hlo
+------------------------------------------------
+Runtime estimate for mini_module_80.mlir - runtime: 243.36000000000004
+-----------------------------------------------------------
+Cache hit (84) for mini_module_78.mlir - runtime: 236.032
+-----------------------------------------------------------
+Cache hit (80) for mini_module_76.mlir - runtime: 243.36000000000004
+-----------------------------------------------------------
+Cache hit (84) for mini_module_74.mlir - runtime: 236.032
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_72.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_72.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_72.hlo
+------------------------------------------------
+Runtime estimate for mini_module_72.mlir - runtime: 265.184
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_70.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_70.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_70.hlo
+------------------------------------------------
+Runtime estimate for mini_module_70.mlir - runtime: 131.98400000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_68.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_68.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_68.hlo
+------------------------------------------------
+Runtime estimate for mini_module_68.mlir - runtime: 139.27200000000002
+-----------------------------------------------------------
+Cache hit (70) for mini_module_66.mlir - runtime: 131.98400000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_64.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_64.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_64.hlo
+------------------------------------------------
+Runtime estimate for mini_module_64.mlir - runtime: 136.43200000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_62.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_62.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_62.hlo
+------------------------------------------------
+Runtime estimate for mini_module_62.mlir - runtime: 55.248000000000005
+-----------------------------------------------------------
+Cache hit (70) for mini_module_60.mlir - runtime: 131.98400000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_58.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_58.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_58.hlo
+------------------------------------------------
+Runtime estimate for mini_module_58.mlir - runtime: 147.23200000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_56.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_56.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_56.hlo
+------------------------------------------------
+Runtime estimate for mini_module_56.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_54.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_54.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_54.hlo
+------------------------------------------------
+Runtime estimate for mini_module_54.mlir - runtime: 205.496
+-----------------------------------------------------------
+Cache hit (56) for mini_module_52.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Cache hit (54) for mini_module_50.mlir - runtime: 205.496
+-----------------------------------------------------------
+Cache hit (56) for mini_module_48.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Cache hit (54) for mini_module_46.mlir - runtime: 205.496
+-----------------------------------------------------------
+Cache hit (56) for mini_module_44.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Cache hit (54) for mini_module_42.mlir - runtime: 205.496
+-----------------------------------------------------------
+Cache hit (56) for mini_module_40.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_38.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_38.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_38.hlo
+------------------------------------------------
+Runtime estimate for mini_module_38.mlir - runtime: 205.56800000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_36.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_36.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_36.hlo
+------------------------------------------------
+Runtime estimate for mini_module_36.mlir - runtime: 123.62400000000002
+-----------------------------------------------------------
+Cache hit (56) for mini_module_34.mlir - runtime: 196.11200000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_32.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_32.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_32.hlo
+------------------------------------------------
+Runtime estimate for mini_module_32.mlir - runtime: 259.95200000000006
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_30.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_30.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_30.hlo
+------------------------------------------------
+Runtime estimate for mini_module_30.mlir - runtime: 231.76000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_28.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_28.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_28.hlo
+------------------------------------------------
+Runtime estimate for mini_module_28.mlir - runtime: 248.17600000000002
+-----------------------------------------------------------
+Cache hit (30) for mini_module_26.mlir - runtime: 231.76000000000002
+-----------------------------------------------------------
+Cache hit (28) for mini_module_24.mlir - runtime: 248.17600000000002
+-----------------------------------------------------------
+Cache hit (30) for mini_module_22.mlir - runtime: 231.76000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_20.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_20.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_20.hlo
+------------------------------------------------
+Runtime estimate for mini_module_20.mlir - runtime: 248.45600000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_18.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_18.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_18.hlo
+------------------------------------------------
+Runtime estimate for mini_module_18.mlir - runtime: 143.46400000000003
+-----------------------------------------------------------
+Cache hit (30) for mini_module_16.mlir - runtime: 231.76000000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_14.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_14.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_14.hlo
+------------------------------------------------
+Runtime estimate for mini_module_14.mlir - runtime: 368.12800000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_12.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_12.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_12.hlo
+------------------------------------------------
+Runtime estimate for mini_module_12.mlir - runtime: 410.576
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_10.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_10.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_10.hlo
+------------------------------------------------
+Runtime estimate for mini_module_10.mlir - runtime: 443.32800000000003
+-----------------------------------------------------------
+Cache hit (12) for mini_module_8.mlir - runtime: 410.576
+-----------------------------------------------------------
+Cache hit (10) for mini_module_6.mlir - runtime: 443.32800000000003
+-----------------------------------------------------------
+Cache hit (12) for mini_module_4.mlir - runtime: 410.576
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_2.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_2.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_2.hlo
+------------------------------------------------
+Runtime estimate for mini_module_2.mlir - runtime: 1038.7760000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_0.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_0.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices/mini_module_0.hlo
+------------------------------------------------
+Runtime estimate for mini_module_0.mlir - runtime: 2334.152
+------------------------------------------------------------
+Linking chakra traces 4 times for all devices.
+Chakra gen done.
+Cache hits: 37
+Basic block reuse rate: 0.48 (37/77)
+Operator reuse factor: 0.31 (2468/7868)
+Total estimator time taken: 114.017s vs total time (without caching): 216.111s (47.241% reduction)
+Compute Runtime Estimation: 30177.26 us
+Stats: {}
+------------------------------------------------------------
+Done. Output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet34_train_step_4_devices
+Took 114.032s

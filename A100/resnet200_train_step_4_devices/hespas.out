@@ -1,0 +1,1146 @@
+Created output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices
+Dependency graph not loaded. Generating a new one.
+Parsing mlir_file: /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet200_train_step_4_devices.mlir
+----------------------------------------
+Input file          | /opt/hespas/hespas_workload/experiments/resnet_fusion/workloads/resnet200_train_step_4_devices.mlir
+Number of non-expanded ops:| 43406
+Split strategy      | linear_split
+----------------------------------------
+Dependency graph saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/dependency_graph.dot
+Number of splits: 1847
+Creating new MLIR modules for each split:
+Saving private functions to: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/private_functions.mlir
+Generating MLIR Modules: 0modules [00:00, ?modules/s]Generating MLIR Modules: 0modules [00:00, ?modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 1modules [00:00,  9.96modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 1modules [00:01,  9.96modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 77modules [00:01, 71.58modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 77modules [00:02, 71.58modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 153modules [00:02, 74.02modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 153modules [00:03, 74.02modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 227modules [00:03, 73.93modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 227modules [00:04, 73.93modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 323modules [00:04, 81.49modules/s, Mem cur:301MiB peak:301MiB]Generating MLIR Modules: 323modules [00:05, 81.49modules/s, Mem cur:302MiB peak:302MiB]Generating MLIR Modules: 429modules [00:05, 89.18modules/s, Mem cur:302MiB peak:302MiB]Generating MLIR Modules: 429modules [00:06, 89.18modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 528modules [00:06, 92.44modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 528modules [00:07, 92.44modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 630modules [00:07, 94.60modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 630modules [00:08, 94.60modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 729modules [00:08, 95.97modules/s, Mem cur:303MiB peak:303MiB]Generating MLIR Modules: 729modules [00:09, 95.97modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 839modules [00:09, 100.23modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 839modules [00:10, 100.23modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 948modules [00:10, 102.71modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 948modules [00:11, 102.71modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1051modules [00:11, 102.73modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1051modules [00:12, 102.73modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1167modules [00:12, 105.06modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1167modules [00:13, 105.06modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1249modules [00:13, 98.04modules/s, Mem cur:305MiB peak:305MiB] Generating MLIR Modules: 1249modules [00:14, 98.04modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1352modules [00:14, 99.16modules/s, Mem cur:305MiB peak:305MiB]Generating MLIR Modules: 1352modules [00:15, 99.16modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1469modules [00:15, 103.65modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1469modules [00:16, 103.65modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1547modules [00:16, 95.46modules/s, Mem cur:306MiB peak:306MiB] Generating MLIR Modules: 1547modules [00:17, 95.46modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1659modules [00:17, 100.28modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1659modules [00:18, 100.28modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1761modules [00:18, 100.81modules/s, Mem cur:306MiB peak:306MiB]Generating MLIR Modules: 1761modules [00:19, 100.81modules/s, Mem cur:323MiB peak:323MiB]Generating MLIR Modules: 1847modules [00:19, 100.49modules/s, Mem cur:323MiB peak:323MiB]Generating MLIR Modules: 1847modules [00:19, 96.21modules/s, Mem cur:323MiB peak:323MiB] 
+Removed 0 empty mlir nodes from dependency graph
+Dependency graph pickled and saved to /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/dependency_graph.pkl
+Parsed 1847 modules from the MLIR file.
+No cached results found at: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/cache.json
+>>>> DiGraph with 1847 nodes and 1846 edges
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1843.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1843.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1843.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1843.mlir - runtime: 3304.192
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1844.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1844.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1844.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1844.mlir - runtime: 2032.384
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1842.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1842.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1842.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1842.mlir - runtime: 768.7680000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1845.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1845.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1845.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1845.mlir - runtime: 837.8880000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1846.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1846.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1846.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1846.mlir - runtime: 879.6160000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1841.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1841.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1841.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1841.mlir - runtime: 828.9280000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1840.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1840.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1840.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1840.mlir - runtime: 827.9040000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1839.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1839.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1839.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1839.mlir - runtime: 652.0320000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1432.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1432.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1432.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1432.mlir - runtime: 7.424
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1429.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1429.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1429.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1429.mlir - runtime: 526.5920000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1428.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1428.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1428.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1428.mlir - runtime: 807.6800000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1430.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1430.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1430.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1430.mlir - runtime: 929.5360000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1426.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1426.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_1426.hlo
+------------------------------------------------
+Runtime estimate for mini_module_1426.mlir - runtime: 1076.2240000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_814.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_814.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_814.hlo
+------------------------------------------------
+Runtime estimate for mini_module_814.mlir - runtime: 694.0160000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_813.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_813.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_813.hlo
+------------------------------------------------
+Runtime estimate for mini_module_813.mlir - runtime: 3832.32
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_811.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_811.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_811.hlo
+------------------------------------------------
+Runtime estimate for mini_module_811.mlir - runtime: 6376.96
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_809.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_809.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_809.hlo
+------------------------------------------------
+Runtime estimate for mini_module_809.mlir - runtime: 1634.0480000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_807.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_807.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_807.hlo
+------------------------------------------------
+Runtime estimate for mini_module_807.mlir - runtime: 2439.1680000000006
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_805.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_805.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_805.hlo
+------------------------------------------------
+Runtime estimate for mini_module_805.mlir - runtime: 3487.4880000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_803.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_803.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_803.hlo
+------------------------------------------------
+Runtime estimate for mini_module_803.mlir - runtime: 3232.7680000000005
+-----------------------------------------------------------
+Cache hit (809) for mini_module_801.mlir - runtime: 1634.0480000000002
+-----------------------------------------------------------
+Cache hit (807) for mini_module_799.mlir - runtime: 2439.1680000000006
+-----------------------------------------------------------
+Cache hit (803) for mini_module_797.mlir - runtime: 3232.7680000000005
+-----------------------------------------------------------
+Cache hit (809) for mini_module_795.mlir - runtime: 1634.0480000000002
+-----------------------------------------------------------
+Cache hit (807) for mini_module_793.mlir - runtime: 2439.1680000000006
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_791.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_791.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_791.hlo
+------------------------------------------------
+Runtime estimate for mini_module_791.mlir - runtime: 3689.7280000000005
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_789.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_789.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_789.hlo
+------------------------------------------------
+Runtime estimate for mini_module_789.mlir - runtime: 2217.728
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_787.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_787.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_787.hlo
+------------------------------------------------
+Runtime estimate for mini_module_787.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_785.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_785.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_785.hlo
+------------------------------------------------
+Runtime estimate for mini_module_785.mlir - runtime: 2260.48
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_783.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_783.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_783.hlo
+------------------------------------------------
+Runtime estimate for mini_module_783.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_781.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_781.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_781.hlo
+------------------------------------------------
+Runtime estimate for mini_module_781.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_779.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_777.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_775.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_773.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_771.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_769.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_767.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_765.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_763.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_761.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_759.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_757.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_755.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_753.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_751.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_749.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_747.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_745.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_743.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_741.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_739.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_737.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_735.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_733.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_731.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_729.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_727.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_725.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_723.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_721.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_719.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_717.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_715.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_713.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_711.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_709.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_707.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_705.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_703.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_701.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_699.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_697.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_695.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_693.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_691.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_689.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_687.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_685.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_683.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_681.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_679.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_677.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_675.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_673.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_671.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_669.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_667.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_665.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_663.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_661.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_659.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_657.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_655.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_653.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Cache hit (783) for mini_module_651.mlir - runtime: 1691.9040000000002
+-----------------------------------------------------------
+Cache hit (781) for mini_module_649.mlir - runtime: 990.7200000000001
+-----------------------------------------------------------
+Cache hit (787) for mini_module_647.mlir - runtime: 1275.1360000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_645.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_645.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_645.hlo
+------------------------------------------------
+Runtime estimate for mini_module_645.mlir - runtime: 1935.6160000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_643.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_643.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_643.hlo
+------------------------------------------------
+Runtime estimate for mini_module_643.mlir - runtime: 1384.192
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_641.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_641.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_641.hlo
+------------------------------------------------
+Runtime estimate for mini_module_641.mlir - runtime: 723.456
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_639.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_639.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_639.hlo
+------------------------------------------------
+Runtime estimate for mini_module_639.mlir - runtime: 1374.976
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_637.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_637.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_637.hlo
+------------------------------------------------
+Runtime estimate for mini_module_637.mlir - runtime: 925.44
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_635.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_635.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_635.hlo
+------------------------------------------------
+Runtime estimate for mini_module_635.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_633.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_631.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_629.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_627.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_625.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_623.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_621.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_619.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_617.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_615.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_613.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_611.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_609.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_607.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_605.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_603.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_601.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_599.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_597.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_595.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_593.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_591.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_589.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_587.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_585.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_583.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_581.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_579.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_577.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_575.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_573.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_571.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_569.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_567.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_565.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_563.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_561.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_559.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_557.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_555.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_553.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_551.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_549.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_547.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_545.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_543.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_541.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_539.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_537.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_535.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_533.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_531.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_529.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_527.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_525.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_523.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_521.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_519.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_517.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_515.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_513.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_511.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_509.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_507.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_505.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_503.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_501.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_499.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_497.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_495.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_493.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_491.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_489.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_487.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_485.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_483.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_481.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_479.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_477.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_475.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_473.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_471.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_469.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_467.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_465.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_463.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_461.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_459.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_457.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_455.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_453.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_451.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_449.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_447.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_445.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_443.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_441.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_439.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_437.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_435.mlir - runtime: 723.456
+-----------------------------------------------------------
+Cache hit (637) for mini_module_433.mlir - runtime: 925.44
+-----------------------------------------------------------
+Cache hit (635) for mini_module_431.mlir - runtime: 759.296
+-----------------------------------------------------------
+Cache hit (641) for mini_module_429.mlir - runtime: 723.456
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_427.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_427.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_427.hlo
+------------------------------------------------
+Runtime estimate for mini_module_427.mlir - runtime: 1147.3920000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_425.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_425.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_425.hlo
+------------------------------------------------
+Runtime estimate for mini_module_425.mlir - runtime: 1010.9440000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_423.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_423.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_423.hlo
+------------------------------------------------
+Runtime estimate for mini_module_423.mlir - runtime: 486.9120000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_421.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_421.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_421.hlo
+------------------------------------------------
+Runtime estimate for mini_module_421.mlir - runtime: 944.8960000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_419.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_419.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_419.hlo
+------------------------------------------------
+Runtime estimate for mini_module_419.mlir - runtime: 582.4000000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_417.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_417.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_417.hlo
+------------------------------------------------
+Runtime estimate for mini_module_417.mlir - runtime: 624.128
+-----------------------------------------------------------
+Cache hit (423) for mini_module_415.mlir - runtime: 486.9120000000001
+-----------------------------------------------------------
+Cache hit (419) for mini_module_413.mlir - runtime: 582.4000000000001
+-----------------------------------------------------------
+Cache hit (417) for mini_module_411.mlir - runtime: 624.128
+-----------------------------------------------------------
+Cache hit (423) for mini_module_408.mlir - runtime: 486.9120000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_410.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_410.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_410.hlo
+------------------------------------------------
+Runtime estimate for mini_module_410.mlir - runtime: 1263.872
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_407.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_407.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_407.hlo
+------------------------------------------------
+Runtime estimate for mini_module_407.mlir - runtime: 1102.336
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_404.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_404.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_404.hlo
+------------------------------------------------
+Runtime estimate for mini_module_404.mlir - runtime: 318.976
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_402.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_402.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_402.hlo
+------------------------------------------------
+Runtime estimate for mini_module_402.mlir - runtime: 327.42400000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_400.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_400.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_400.hlo
+------------------------------------------------
+Runtime estimate for mini_module_400.mlir - runtime: 335.61600000000004
+-----------------------------------------------------------
+Cache hit (404) for mini_module_398.mlir - runtime: 318.976
+-----------------------------------------------------------
+Cache hit (402) for mini_module_396.mlir - runtime: 327.42400000000004
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_394.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_394.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_394.hlo
+------------------------------------------------
+Runtime estimate for mini_module_394.mlir - runtime: 336.128
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_392.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_392.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_392.hlo
+------------------------------------------------
+Runtime estimate for mini_module_392.mlir - runtime: 449.79200000000003
+-----------------------------------------------------------
+Cache hit (404) for mini_module_390.mlir - runtime: 318.976
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_388.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_388.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_388.hlo
+------------------------------------------------
+Runtime estimate for mini_module_388.mlir - runtime: 485.37600000000003
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_386.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_386.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_386.hlo
+------------------------------------------------
+Runtime estimate for mini_module_386.mlir - runtime: 828.4160000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_384.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_384.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_384.hlo
+------------------------------------------------
+Runtime estimate for mini_module_384.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_382.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_382.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_382.hlo
+------------------------------------------------
+Runtime estimate for mini_module_382.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_380.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_380.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_380.hlo
+------------------------------------------------
+Runtime estimate for mini_module_380.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_378.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_376.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_374.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_372.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_370.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_368.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_366.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_364.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_362.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_360.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_358.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_356.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_354.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_352.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_350.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_348.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_346.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_344.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_342.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_340.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_338.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_336.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_334.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_332.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_330.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_328.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_326.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_324.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_322.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_320.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_318.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_316.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_314.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_312.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_310.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_308.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_306.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_304.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_302.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_300.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_298.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_296.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_294.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_292.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_290.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_288.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_286.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_284.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_282.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_280.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_278.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_276.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_274.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_272.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_270.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_268.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_266.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_264.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_262.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_260.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_258.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_256.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_254.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_252.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_250.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_248.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_246.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_244.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_242.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_240.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_238.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_236.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_234.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_232.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_230.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_228.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_226.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_224.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_222.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_220.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_218.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_216.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_214.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_212.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_210.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_208.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_206.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_204.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_202.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_200.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_198.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_196.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_194.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_192.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_190.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_188.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_186.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_184.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Cache hit (380) for mini_module_182.mlir - runtime: 640.2560000000001
+-----------------------------------------------------------
+Cache hit (384) for mini_module_180.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Cache hit (382) for mini_module_178.mlir - runtime: 471.2960000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_176.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_176.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_176.hlo
+------------------------------------------------
+Runtime estimate for mini_module_176.mlir - runtime: 644.3520000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_174.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_174.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_174.hlo
+------------------------------------------------
+Runtime estimate for mini_module_174.mlir - runtime: 861.44
+-----------------------------------------------------------
+Cache hit (384) for mini_module_172.mlir - runtime: 683.7760000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_170.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_170.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_170.hlo
+------------------------------------------------
+Runtime estimate for mini_module_170.mlir - runtime: 775.9360000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_168.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_168.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_168.hlo
+------------------------------------------------
+Runtime estimate for mini_module_168.mlir - runtime: 1466.112
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_166.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_166.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_166.hlo
+------------------------------------------------
+Runtime estimate for mini_module_166.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_164.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_164.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_164.hlo
+------------------------------------------------
+Runtime estimate for mini_module_164.mlir - runtime: 552.96
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_162.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_162.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_162.hlo
+------------------------------------------------
+Runtime estimate for mini_module_162.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_160.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_158.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_156.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_154.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_152.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_150.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_148.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_146.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_144.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_142.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_140.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_138.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_136.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_134.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_132.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_130.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_128.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_126.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_124.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_122.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_120.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_118.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_116.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_114.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_112.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_110.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_108.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_106.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_104.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_102.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_100.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_98.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_96.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_94.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_92.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_90.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_88.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_86.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_84.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_82.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_80.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_78.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_76.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_74.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_72.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_70.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_68.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_66.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_64.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_62.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_60.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_58.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_56.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_54.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_52.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_50.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_48.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_46.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_44.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_42.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_40.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_38.mlir - runtime: 552.96
+-----------------------------------------------------------
+Cache hit (162) for mini_module_36.mlir - runtime: 1047.5520000000001
+-----------------------------------------------------------
+Cache hit (166) for mini_module_34.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Cache hit (164) for mini_module_32.mlir - runtime: 552.96
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_30.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_30.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_30.hlo
+------------------------------------------------
+Runtime estimate for mini_module_30.mlir - runtime: 1044.48
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_28.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_28.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_28.hlo
+------------------------------------------------
+Runtime estimate for mini_module_28.mlir - runtime: 1542.912
+-----------------------------------------------------------
+Cache hit (166) for mini_module_26.mlir - runtime: 1309.44
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_24.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_24.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_24.hlo
+------------------------------------------------
+Runtime estimate for mini_module_24.mlir - runtime: 1187.0720000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_22.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_22.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_22.hlo
+------------------------------------------------
+Runtime estimate for mini_module_22.mlir - runtime: 2374.1440000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_20.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_20.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_20.hlo
+------------------------------------------------
+Runtime estimate for mini_module_20.mlir - runtime: 2166.5280000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_18.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_18.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_18.hlo
+------------------------------------------------
+Runtime estimate for mini_module_18.mlir - runtime: 895.2320000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_16.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_16.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_16.hlo
+------------------------------------------------
+Runtime estimate for mini_module_16.mlir - runtime: 2054.912
+-----------------------------------------------------------
+Cache hit (20) for mini_module_14.mlir - runtime: 2166.5280000000002
+-----------------------------------------------------------
+Cache hit (18) for mini_module_12.mlir - runtime: 895.2320000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_10.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_10.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_10.hlo
+------------------------------------------------
+Runtime estimate for mini_module_10.mlir - runtime: 2050.0480000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_8.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_8.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_8.hlo
+------------------------------------------------
+Runtime estimate for mini_module_8.mlir - runtime: 2501.376
+-----------------------------------------------------------
+Cache hit (20) for mini_module_6.mlir - runtime: 2166.5280000000002
+-----------------------------------------------------------
+Cache hit (18) for mini_module_4.mlir - runtime: 895.2320000000001
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_2.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_2.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_2.hlo
+------------------------------------------------
+Runtime estimate for mini_module_2.mlir - runtime: 2033.6640000000002
+-----------------------------------------------------------
+Translating MLIR to HLO:
+xla-translate --stablehlo-to-hlo-text -o /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_0.hlo /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_0.mlir
+hlo_runner_main --num_repeats=5 --profile_execution=true --hlo_argument_mode=uninitialized /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices/mini_module_0.hlo
+------------------------------------------------
+Runtime estimate for mini_module_0.mlir - runtime: 4379.136
+------------------------------------------------------------
+Linking chakra traces 4 times for all devices.
+Chakra gen done.
+Cache hits: 354
+Basic block reuse rate: 0.84 (354/422)
+Operator reuse factor: 0.56 (23798/42874)
+Total estimator time taken: 192.686s vs total time (without caching): 1203.596s (83.991% reduction)
+Compute Runtime Estimation: 412293.63 us
+Stats: {}
+------------------------------------------------------------
+Done. Output directory: /opt/hespas/hespas_workload/experiments/resnet_fusion/resnet_prof_run/resnet200_train_step_4_devices
+Took 192.767s
