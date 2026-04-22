@@ -1,6 +1,6 @@
 # Hespas Workloads
 
-StableHLO workload traces for use with
+StableHLO workload exports for use with
 [hespas](https://github.com/imec-int/hespas).
 
 Each workload is stored on its own branch. The `main` branch is kept empty so
